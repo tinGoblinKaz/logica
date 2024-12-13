@@ -58,7 +58,7 @@ while(true){
         if (extrato == ''){
             alert('Não foram realizadas movimentações.');
         }else{
-            alert(extrato);
+            alert(extrato.toFixed(2));
         };
 
        
